@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide07InvestmentTerms = {
+export const Slide07InvestmentTerms: SlideDefinition = {
   type: 'content',
   title: 'Investment Structure',
   subtitle: 'Two flexible options aligned to institutional capital preferences',
@@ -165,4 +165,4 @@ export const Slide07InvestmentTerms = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

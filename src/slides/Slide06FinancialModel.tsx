@@ -1,7 +1,7 @@
 import { RevenueChart } from '../components/RevenueChart';
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide06FinancialModel = {
+export const Slide06FinancialModel: SlideDefinition = {
   type: 'content',
   title: 'Financial Projections',
   subtitle: 'Conservative base case with clear path to profitability',
@@ -171,4 +171,4 @@ export const Slide06FinancialModel = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

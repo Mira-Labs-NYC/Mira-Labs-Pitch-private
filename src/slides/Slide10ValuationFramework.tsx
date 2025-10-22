@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide10ValuationFramework = {
+export const Slide10ValuationFramework: SlideDefinition = {
   type: 'content',
   title: 'Valuation & Returns Analysis',
   subtitle: 'Attractive entry multiple with clear path to value creation',
@@ -215,4 +215,4 @@ export const Slide10ValuationFramework = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

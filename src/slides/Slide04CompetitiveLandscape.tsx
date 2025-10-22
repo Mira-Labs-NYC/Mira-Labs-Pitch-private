@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide04CompetitiveLandscape = {
+export const Slide04CompetitiveLandscape: SlideDefinition = {
   type: 'content',
   title: 'Competitive Landscape',
   subtitle: 'Swiss regulated digital asset managers and Mira Labs differentiation',
@@ -105,4 +105,4 @@ export const Slide04CompetitiveLandscape = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

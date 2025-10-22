@@ -18,7 +18,7 @@ const staggerContainer = {
   }
 };
 
-export const Slide02ExecutiveSummary = {
+export const Slide02ExecutiveSummary: SlideDefinition = {
   type: 'content',
   title: 'The Opportunity',
   subtitle: 'Day-1 revenue + licensed platform + institutional pipeline',
@@ -114,4 +114,4 @@ export const Slide02ExecutiveSummary = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

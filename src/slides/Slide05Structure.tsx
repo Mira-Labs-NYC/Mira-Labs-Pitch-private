@@ -68,7 +68,7 @@ const renderArrowRight = ({
     )}
   </div>
 );
-export const Slide05Structure = {
+export const Slide05Structure: SlideDefinition = {
   type: 'content',
   title: 'Structure',
   subtitle: 'How the Swiss acquisition, global feeders, and SAFE vehicle align capital flows',
@@ -242,4 +242,4 @@ export const Slide05Structure = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

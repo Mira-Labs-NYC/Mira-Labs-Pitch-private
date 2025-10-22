@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide01Title = {
+export const Slide01Title: SlideDefinition = {
   type: 'title',
   content: (
     <div className="h-full flex flex-col justify-between bg-slate-900 text-white p-4 sm:p-8 md:p-12 lg:p-16">
@@ -32,4 +32,4 @@ export const Slide01Title = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

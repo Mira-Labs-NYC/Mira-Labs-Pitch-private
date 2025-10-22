@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide02MarketOpportunity = {
+export const Slide02MarketOpportunity: SlideDefinition = {
   type: 'content',
   title: 'Market Opportunity',
   subtitle: 'Institutional capital shifting toward regulated digital asset managers',
@@ -92,4 +92,4 @@ export const Slide02MarketOpportunity = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

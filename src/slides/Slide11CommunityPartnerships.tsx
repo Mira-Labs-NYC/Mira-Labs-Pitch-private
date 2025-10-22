@@ -1,4 +1,6 @@
-export const Slide11CommunityPartnerships = {
+import type { SlideDefinition } from '../types/slides';
+
+export const Slide11CommunityPartnerships: SlideDefinition = {
   type: 'content',
   title: 'Community Development & Strategic Partnerships',
   subtitle: 'Building a robust ecosystem through strategic alliances and community engagement',

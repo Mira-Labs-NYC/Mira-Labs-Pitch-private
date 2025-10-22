@@ -23,7 +23,7 @@ const MiraLabsPitch = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const zoom = 1;
 
-  const slides: SlideDefinition[] = [
+  const slides = [
     Slide01Title,
     Slide02MarketOpportunity,
     Slide02ExecutiveSummary,
@@ -38,7 +38,7 @@ const MiraLabsPitch = () => {
     Slide09TechnologyMarketSolution,
     Slide10ValuationFramework,
     Slide11CommunityPartnerships
-  ];
+  ] satisfies SlideDefinition[];
 
   const nextSlide = () => {
     if (currentSlide < slides.length - 1) {

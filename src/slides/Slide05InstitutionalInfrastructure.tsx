@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide05InstitutionalInfrastructure = {
+export const Slide05InstitutionalInfrastructure: SlideDefinition = {
   type: 'content',
   title: 'Institutional Infrastructure',
   subtitle: 'Swiss and Luxembourg regulatory frameworks providing global market access',
@@ -133,4 +133,4 @@ export const Slide05InstitutionalInfrastructure = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

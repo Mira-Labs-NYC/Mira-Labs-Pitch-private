@@ -1,7 +1,7 @@
 import { CheckCircle } from 'lucide-react';
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide09TechnologyMarketSolution = {
+export const Slide09TechnologyMarketSolution: SlideDefinition = {
   type: 'content',
   title: 'Technology Infrastructure & Market Solution',
   subtitle: 'Strategic partnership delivers institutional execution while our team wraps it in a regulated product',
@@ -137,4 +137,4 @@ export const Slide09TechnologyMarketSolution = {
       </div>
     </div>
   )
-} satisfies SlideDefinition;
+};

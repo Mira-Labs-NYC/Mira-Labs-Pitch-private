@@ -1,6 +1,6 @@
 import type { SlideDefinition } from '../types/slides';
 
-export const Slide03StrategicRationale = {
+export const Slide03StrategicRationale: SlideDefinition = {
   type: 'content',
   title: 'Strategic Rationale',
   subtitle: 'Acquiring established infrastructure to accelerate market entry',
@@ -197,4 +197,4 @@ export const Slide03StrategicRationale = {
 
     </div>
   )
-} satisfies SlideDefinition;
+};
